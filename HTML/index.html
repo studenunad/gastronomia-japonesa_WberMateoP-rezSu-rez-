@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japón - Gastronomía Japonesa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container logo-gray">
+                <h1>Japon</h1>
+                <img src="../images/logo.png" alt="Logo Japón" class="logo-img" />
+            </div>
+            <nav>
+                <ul class="menu menu-gray">
+                    <li><a href="index.html" class="active">INICIO</a></li>
+                    <li>
+                        <a href="platos.html">PLATOS</a>
+                        <ul class="submenu">
+                            <li><a href="platos.html#sushi">Sushi</a></li>
+                            <li><a href="platos.html#ramen">Ramen</a></li>
+                            <li><a href="platos.html#tempura">Tempura</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="recetas.html">RECETAS</a>
+                        <ul class="submenu">
+                            <li><a href="recetas.html#basicas">Básicas</a></li>
+                            <li><a href="recetas.html#avanzadas">Avanzadas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="historia.html">HISTORIA</a></li>
+                    <li><a href="galeria.html">GALERIA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+                <!-- Removed onclick="toggleMenu()" - JS will handle this -->
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title">¡Atrévete a probarla!</h2>
+                    <p class="hero-text">Descubre los secretos de la gastronomía japonesa: tradición, sabores únicos y una experiencia cultural fascinante.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="../images/hero-image.jpg" alt="Platos japoneses variados" />
+                </div>
+            </section>
+
+            <!-- Image Slider Section -->
+            <section class="slider">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 20px;">Nuestras Especialidades</h2>
+                <div class="slider-container">
+                    <img src="../images/slider1.jpg" alt="Imagen Slider 1 - Sushi Variado" class="slider-image active">
+                    <img src="../images/slider2.jpg" alt="Imagen Slider 2 - Plato de Ramen" class="slider-image">
+                    <img src="../images/slider3.jpg" alt="Imagen Slider 3 - Tempura Crujiente" class="slider-image">
+                    <!-- Add more slider images as needed -->
+                    <button class="prev" onclick="prevSlide()">&#10094;</button> <!-- Left arrow -->
+                    <button class="next" onclick="nextSlide()">&#10095;</button> <!-- Right arrow -->
+                </div>
+            </section>
+
+            <section class="featured">
+                <h2 class="section-title">LOS MEJORES PLATOS <span class="arrow">→</span></h2>
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <img src="../images/platos-populares.jpg" alt="Platos populares japoneses" />
+                        <h3>Platos Populares</h3>
+                    </div>
+                    <div class="featured-item">
+                        <img src="../images/mejores-recetas.jpg" alt="Preparación de sushi" />
+                        <h3>Las Mejores Recetas</h3>
+                    </div>
+                    <div class="featured-item">
+                        <img src="../images/historia-comida.jpg" alt="Ilustración de la historia culinaria japonesa" />
+                        <h3>Historia de la comida Japonesa</h3>
+                    </div>
+                    <div class="featured-item">
+                        <img src="../images/plato-recomendado.jpg" alt="Ramen con acompañamiento" />
+                        <h3>Plato Recomendado</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p style="text-align: center; padding: 20px; color: #888;">&copy; 2025 Gastronomía Japonesa. Todos los derechos reservados.</p>
+            <p style="text-align: center; padding: 0 20px 20px; color: #888;">&copy; Wber Mateo Pérez Suárez.</p>
+        </footer>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
+</qodoArtifact>
+
